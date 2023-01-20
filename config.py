@@ -24,7 +24,7 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "I_R_S_A_I")
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5093806483").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5811133066").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5093806483").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
