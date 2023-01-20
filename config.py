@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_NAME = getenv("SESSION_NAME", "")
+API_ID = int(getenv("API_ID", "20543992"))
+API_HASH = getenv("API_HASH", "93fb093637866a6a054c54ade94a7eff")
+BOT_TOKEN = getenv("BOT_TOKEN", "5555731081:AAHASdvJZNBOMxTfmNByhq-9tyQZvsgKxZU")
+SESSION_NAME = getenv("SESSION_NAME", "BACax2utFvvCLXcdj9EzyJuJNrW37GT-v0IQ5Uw7OvTMK9R7a1BZ2sGu1xkfzGPYuOdDbPE6kNCSI_RRUTkj2Z9YF_AZAa-ij8YwGhuHxI4geuJNgsjTQm4Ylp-tnB7N5VgzhY5VNFKOPu3dEic15_Yetjel3_IW7p_1pEx_vdcLizIffphAxNlcVj7cFPNoSdIhdVdAArq-K9b9vu_iugR6xmlxl9Z4OVEY4xvivam2LDT3UCKNkcYfeAsFoH8ALjxyh1nYY4ELwPaQ4WI63qaaE1A8GObgy_vV9MftkVSy3oSb1F4yHt-HShBY6PPolG0ponmFx1fQgeI4BFMDgEsgAAAAAWPfkSEA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
-ALIVE_NAME = getenv("ALIVE_NAME", "sonng")
-BOT_USERNAME = getenv("BOT_USERNAME", "")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ALAPATH")
+ALIVE_NAME = getenv("ALIVE_NAME", "ALAPATH")
+BOT_USERNAME = getenv("BOT_USERNAME", "CASBAR_1BoT")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/X02lx/RrRRR")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ioewoi")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "I_R_S_A_I")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5093806483").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5811133066").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
